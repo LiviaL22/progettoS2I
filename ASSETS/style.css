@@ -1,5 +1,5 @@
 .background-me{
-   background-image: url(ASSETS/IMG/montain.png);
+   background-image: url(montain.png);
     background-size: cover;
     height: 100vh;
     
@@ -7,7 +7,7 @@
     
  }
 .background-contacts{
- background-image: url(ASSETS/IMG/laptop.jpg);
+ background-image: url(laptop.jpg);
    background-size: cover;
     height: 100vh;
     
@@ -15,7 +15,7 @@
  }
 
  .background-portfolio{
-    background-image: url(ASSETS/IMG/cucina.jpg);
+    background-image: url(cucina.jpg);
     background-size: cover;
     height: 100vh;
 }
@@ -23,11 +23,13 @@
 
 
 .Photo{
+    
     text-align: center;
     
 }
 
 .border-Photo{
+    width: 10%;
     border-radius: 5px 5px 5px 5px;
 }
 
@@ -151,7 +153,7 @@ a:hover{
 /* CV */
 
 .background-cv{
-    background-image: url(ASSETS/IMG/spazio.jpg);
+    background-image: url(spazio.jpg);
     background-size: cover;
     height: 100vh;
 
@@ -177,6 +179,7 @@ a:hover{
 }
 
 .photo-cv{
+    width: 10%;
     display: block;
     float: right;
     border-radius: 5% 0 5% 0;
