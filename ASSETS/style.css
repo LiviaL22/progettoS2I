@@ -1,29 +1,32 @@
-.background-me{
+body{
    background-image: url(beach.jpg);
     background-size: cover;
-    height: 100vh;
-    
-    
-    
- }
+}
+
 .background-contacts{
  background-image: url(laptop.jpg);
    background-size: cover;
-    height: 100vh;
     
-   
- }
+    
+}
 
  .background-portfolio{
     background-image: url(cucina.jpg);
     background-size: cover;
-    height: 100vh;
+    
+}
+
+/*Orologio*/
+
+.orologio{
+   display: flex;
+   justify-content: flex-end;
+    color: white;
+
 }
 
 
-
 .Photo{
-    
     text-align: center;
     
 }
@@ -31,6 +34,10 @@
 .border-Photo{
     width: 10%;
     border-radius: 10px 10px 10px 10px;
+    margin: 20px;
+    position:absolute;
+    left: 40%;
+    top: 0px;
 }
 
 .border{
@@ -62,72 +69,96 @@
       }
 
       .container{
-        display: flex;
+    display: flex;
     justify-content: space-around;
     align-items: center;
       
-    
-       
-      }
+}
 
  /*menu*/
+
+ .menusticky{
+    position: sticky;
+    top: 20px;
+ }
 
 #menu{
     overflow:hidden;
     opacity: 0.6;
+    visibility: hidden;
+    top: 20px;
+    width: 80px;
     
-
   }
   
   
   #menu a {
-    float: left;
-    display: block;
+    display: flex;
+    flex-direction: column;
     color: black;
-    text-align: center;
-    padding: 14px;
-    margin: 10px;
+    padding: 10px;
     text-decoration: none;
     border-radius: 0 15px 0 15px;
+    
+  }
+
+  .visiblemenu {
+   display: flex;
+   flex-direction: column;
+    margin-left: 3%;
+    margin: 10px;
+    width: 50px;
+    border-radius: 0.5;
+    border: solid white 3px; 
+    border-radius: 15px 0 15px 0;
+    color: violet;
+    padding: 3px;
+
+
+}
+
+
+
+  .visiblemenu:hover {
+    cursor: pointer;
+
   }
   
- 
       
 .input{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-evenly;
     
 }
 
 .main-text{
     display: flex;
-    opacity: 0.5;
+    opacity: 0.7;
     margin-left: 3%;
     border-radius: 0.5;
     border: solid silver 3px; 
-    border-radius: 15px 0 15px 0;
+    ;
 }
 
 
 
 
 .contact{
-    display: flex;
-   opacity: 0.5;
+   display: flex;
+   opacity: 0.7;
    color: white;
-   border: solid silver 3px; 
+   border: solid white 3px; 
    border-radius: 15px 0 15px 0;
 }
 
 
 .portfolio{
     display: flex;
-     opacity: 0.5;
+     opacity: 0.7;
      color: white;
-     margin-left: 3%;
-     border: solid silver 3px; 
-    border-radius: 15px 0 15px 0;
+     border: solid white 3px; 
+    
 }
 
 /*text first page*/
@@ -145,13 +176,13 @@
 /*buttons*/
 
 a:link, a:active, a:visited{
-    color: green;
-    background-color: silver;
+    color: violet;
+    background-color:white;
     text-decoration: none;
 }
 a:hover{
     font-weight: bold;
-    background-color: silver;
+    background-color: white;
 }
 
 /* CV */
