@@ -4,7 +4,7 @@ Ciao! Sono Livia e sto studiando per diventare sviluppatrice Web.
 
 Questo è il progetto per il mio sito portfolio nato per il corso di Start2Impacat University, contiene:
 
-•	i miei progetti
+•	i collegamenti ai miei futuri progetti
 
 •	collegamenti ai miei social come Facebook, Instagram e Linkedin
 
