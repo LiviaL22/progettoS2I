@@ -2,7 +2,7 @@ README LIVIA LUCIANI
 
 Ciao! Sono Livia e sto studiando per diventare sviluppatrice Web. 
 
-Questo è il progetto per il mio sito portfolio nato per il corso di Start2Impacat University, contiene:
+Questo è il progetto per il mio sito portfolio, contiene:
 
 •	i collegamenti ai miei futuri progetti
 
@@ -21,3 +21,29 @@ Cosa ho usato:
 •	JAVASCRIPT
 
 Con il tempo e lo studio migliorerò i contenuti e aggiungerò progetti 
+
+
+ENGLISH
+
+
+READ ME LIVIA LUCIANI
+
+HI! I'm Livia and I'm studying to become a web developer.
+
+This is my frist project for portfolio side, it contains:
+
+• links to my future projects
+
+• links to my social networks such as Facebook, Instagram and Linkedin
+
+• link to the GitHub 
+
+• my Curriculum vitae
+
+What I used:
+
+• HTML
+
+• CSS
+
+• JAVASCRIPTS
