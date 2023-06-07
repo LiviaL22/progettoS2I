@@ -1,7 +1,19 @@
 body{
    background-image: url(beach.jpg);
     background-size: cover;
+    height: 100vh;
+    
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="background-"] {
+      width: 100%;
+    }
+  }
+
+
+  /* contancts page*/
 
 .background-contacts{
  background-image: url(laptop.jpg);
@@ -9,14 +21,16 @@ body{
     
     
 }
+/* portfolio page */
 
  .background-portfolio{
     background-image: url(cucina.jpg);
     background-size: cover;
     
+    
 }
 
-/*Orologio*/
+/*O'clock*/
 
 .orologio{
    display: flex;
@@ -161,13 +175,14 @@ body{
     
 }
 
-/*text first page*/
+/* text first page */
 
 .paragraph{
     text-align: center;
     color: white;
     font-size: xx-large;
     margin: 30px;
+    font-family: 'Times New Roman';
 }
 
 
@@ -190,7 +205,7 @@ a:hover{
 .background-cv{
     background-image: url(spazio.jpg);
     background-size: cover;
-    height: 100vh;
+    
 
 }
 
