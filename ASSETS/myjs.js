@@ -7,7 +7,7 @@ function startTime(){
             minuti = dueCifre(minuti);
             secondi = dueCifre(secondi);
           document.getElementsByClassName('orologio')[0].innerHTML = ora + ":" + minuti + ":" + secondi;
-          setTimeout(startTime, 1000); // 1000 è un secondo   
+          setTimeout(startTime, 1000);    
 }
    function dueCifre(cifra){
             if (cifra < 10) { cifra = "0" + cifra}; 
