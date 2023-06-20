@@ -145,22 +145,20 @@ body{
 
 .input{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
     
 }
 
 .main-text{
     display: flex;
+    justify-content: space-around;
     opacity: 0.7;
     margin-left: 3%;
     border-radius: 0.5;
     border: solid silver 3px; 
-    ;
+    
 }
-
-
-
 
 .contact{
    display: flex;
@@ -237,4 +235,14 @@ a:hover{
     display: block;
     float: right;
     border-radius: 5% 0 5% 0;
+}
+
+/* contacts and portfolio */
+.footer{
+    color: aqua;
+}
+
+.footer-contact{
+    color: aqua;
+    margin-top: 50px;
 }
