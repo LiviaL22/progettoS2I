@@ -41,7 +41,9 @@ body{
 
 
 .Photo{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+   
     
 }
 
@@ -178,10 +180,10 @@ body{
 /* text first page */
 
 .paragraph{
-    text-align: center;
+    display: flex;
+    justify-content: center;
     color: white;
-    font-size: xx-large;
-    margin: 30px;
+    margin: 50px;
     font-family: 'Times New Roman';
 }
 
