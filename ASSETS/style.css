@@ -1,25 +1,13 @@
 body{
    background-image: url(paesaggio.jpg);
     background-size: cover;
-    height: 100vh;
-    
 }
-
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="background-"] {
-      width: 100%;
-    }
-  }
-
 
   /* contancts page*/
 
 .background-contacts{
  background-image: url(laptop.jpg);
    background-size: cover;
-    
-    
 }
 
 /* portfolio page */
@@ -27,9 +15,22 @@ body{
  .background-portfolio{
     background-image: url(cucina.jpg);
     background-size: cover;
-    
-    
-}
+ }
+
+@media only screen and (max-width: 850px) {
+    /* For mobile phones: */
+    [class*="background-"] {
+      width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 850px) {
+    /* For mobile phones: */
+    [class*="body"] {
+      width: 100%;
+    }
+  }
+
 
  /*menu*/
 
