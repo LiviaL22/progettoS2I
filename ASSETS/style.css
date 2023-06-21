@@ -1,6 +1,14 @@
 body{
    background-image: url(paesaggio.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 850px) {
+    /* For mobile phones: */
+    [class*="background-"] {
+      width: 100px;
+    }
 }
 
   /* contancts page*/
@@ -16,20 +24,6 @@ body{
     background-image: url(cucina.jpg);
     background-size: cover;
  }
-
-@media only screen and (max-width: 850px) {
-    /* For mobile phones: */
-    [class*="background-"] {
-      width: 100%;
-    }
-  }
-
-  @media only screen and (max-width: 850px) {
-    /* For mobile phones: */
-    [class*="body"] {
-      width: 100%;
-    }
-  }
 
 
  /*menu*/
