@@ -1,66 +1,67 @@
-body{
-   background-image: url(paesaggio.jpg);
+body {
+    background-image: url(paesaggio.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 @media only screen and (max-width: 850px) {
+
     /* For mobile phones: */
     [class*="background-"] {
-      width: 100px;
+        width: 100px;
     }
 }
 
-  /* contancts page*/
+/* contancts page*/
 
-.background-contacts{
- background-image: url(laptop.jpg);
-   background-size: cover;
+.background-contacts {
+    background-image: url(laptop.jpg);
+    background-size: cover;
 }
 
 /* portfolio page */
 
- .background-portfolio{
+.background-portfolio {
     background-image: url(cucina.jpg);
     background-size: cover;
- }
+}
 
 
- /*menu*/
+/*menu*/
 
- .menusticky{
+.menusticky {
     position: sticky;
     top: 20px;
- }
+}
 
-#menu{
-    overflow:hidden;
+#menu {
+    overflow: hidden;
     opacity: 0.6;
     visibility: hidden;
     top: 20px;
     width: 80px;
-    
-  }
-  
-  
-  #menu a {
+
+}
+
+
+#menu a {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     color: black;
     padding: 10px;
     text-decoration: none;
     border-radius: 0 15px 0 15px;
-    
-  }
 
-  .visiblemenu {
-   display: flex;
-   flex-direction: column;
+}
+
+.visiblemenu {
+    display: flex;
+    flex-direction: column;
     margin-left: 3%;
     margin: 10px;
     width: 50px;
     border-radius: 0.5;
-    border: solid white 3px; 
+    border: solid white 3px;
     border-radius: 15px 0 15px 0;
     color: violet;
     padding: 3px;
@@ -77,35 +78,35 @@ body{
 
 /*O'clock*/
 
-.orologio{
-   display: flex;
-   justify-content: flex-end;
+.orologio {
+    display: flex;
+    justify-content: flex-end;
     color: white;
 
 }
 
 /* photo */
 
-.Photo{
+.Photo {
     display: flex;
     justify-content: center;
-   
-    
+
+
 }
 
-.border-Photo{
+.border-Photo {
     width: 10%;
     border-radius: 10px 10px 10px 10px;
     margin: 20px;
-    position:absolute;
+    position: absolute;
     left: 40%;
     top: 0px;
 }
 
-.border{
+.border {
     border-bottom: 5px solid black;
-    
-    
+
+
 }
 
 .push {
@@ -114,67 +115,67 @@ body{
 
 /* box portfolio*/
 
-.flex-container{
+.flex-container {
     display: flex;
-   justify-content: space-around;
+    justify-content: space-around;
     opacity: 0.5;
 }
 
-.flex-container > div {
-        background-color: white;
-        width: 100px;
-        height: 100px;
-        margin: 100px;
-        text-align: center;
-        font-size: 20px;
-        border-radius: 15px 15px 15px 15px;
+.flex-container>div {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    margin: 100px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 15px 15px 15px 15px;
 }
 
-.container{
+.container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-      
+
 }
 
 
-.input{
+.input {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+
 }
 
-.main-text{
+.main-text {
     display: flex;
     justify-content: space-around;
     opacity: 0.7;
     margin-left: 3%;
     border-radius: 0.5;
-    border: solid silver 3px; 
-    
+    border: solid silver 3px;
+
 }
 
-.contact{
-   display: flex;
-   opacity: 0.7;
-   color: white;
-   border: solid white 3px; 
-   border-radius: 15px 0 15px 0;
-}
-
-
-.portfolio{
+.contact {
     display: flex;
-     opacity: 0.7;
-     color: white;
-     border: solid white 3px; 
-    
+    opacity: 0.7;
+    color: white;
+    border: solid white 3px;
+    border-radius: 15px 0 15px 0;
+}
+
+
+.portfolio {
+    display: flex;
+    opacity: 0.7;
+    color: white;
+    border: solid white 3px;
+
 }
 
 /* text first page */
 
-.paragraph{
+.paragraph {
     display: flex;
     justify-content: center;
     color: white;
@@ -187,32 +188,35 @@ body{
 
 /*buttons*/
 
-a:link, a:active, a:visited{
+a:link,
+a:active,
+a:visited {
     color: violet;
-    background-color:white;
+    background-color: white;
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     font-weight: bold;
     background-color: white;
 }
 
 /* CV */
 
-.background-cv{
+.background-cv {
     background-image: url(spazio.jpg);
     background-size: cover;
-    
+
 
 }
 
-.footer-cv{
+.footer-cv {
     display: flex;
     justify-content: center;
     padding: 10px;
 }
 
-.text-footer{
+.text-footer {
     color: white;
     background-color: blueviolet;
     opacity: 0.5;
@@ -220,12 +224,12 @@ a:hover{
     text-align: center;
 }
 
-.paragraph-cv{
+.paragraph-cv {
     color: white;
     opacity: 0.5;
 }
 
-.photo-cv{
+.photo-cv {
     width: 10%;
     display: block;
     float: right;
@@ -233,11 +237,11 @@ a:hover{
 }
 
 /* contacts and portfolio */
-.footer{
+.footer {
     color: aqua;
 }
 
-.footer-contact{
+.footer-contact {
     color: aqua;
     margin-top: 50px;
 }
