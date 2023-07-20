@@ -4,12 +4,12 @@ body {
     background-repeat: no-repeat;
 }
 
-@media only screen and (max-width: 850px) {
-
-    /* For mobile phones: */
-    [class*="background-"] {
-        width: 100px;
+@media (min-width: 600px) {
+    body{
+        background: url(paesaggio.jpg) no-repeat center center fixed;
+        background-size: cover;
     }
+    
 }
 
 /* contancts page*/
