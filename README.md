@@ -46,4 +46,4 @@ What I used:
 
 • CSS
 
-• JAVASCRIPTS
+• JAVASCRIPT
