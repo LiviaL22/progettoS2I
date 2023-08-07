@@ -22,6 +22,7 @@ Cosa ho usato:
 
 Con il tempo e lo studio migliorerò i contenuti e aggiungerò progetti 
 
+il link:  https://livial22.github.io/progettoS2I/
 
 ENGLISH
 
@@ -47,3 +48,5 @@ What I used:
 • CSS
 
 • JAVASCRIPT
+
+the link:  https://livial22.github.io/progettoS2I/
