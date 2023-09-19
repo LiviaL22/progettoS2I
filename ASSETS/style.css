@@ -76,6 +76,11 @@ body {
 
 }
 
+.container1p{
+    display: flex;
+    justify-content: space-around;
+}
+
 /*O'clock*/
 
 .orologio {
