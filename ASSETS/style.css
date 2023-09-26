@@ -1,21 +1,35 @@
 body {
-    background-image: url(paesaggio.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+background-image: url(paesaggio.jpg);
+background-repeat: no-repeat;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+position: fixed; 
+z-index: -1;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;   
+
 }
 
-@media (min-width: 600px) {
-    body{
-        background: url(paesaggio.jpg) no-repeat center center fixed;
-        background-size: cover;
-    }
-    
-}
+
 
 /* contancts page*/
 
 .background-contacts {
     background-image: url(laptop.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed; 
+    z-index: -1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 
@@ -23,6 +37,16 @@ body {
 
 .background-portfolio {
     background-image: url(cucina.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed; 
+    z-index: -1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 
@@ -65,7 +89,6 @@ body {
     border-radius: 15px 0 15px 0;
     color: violet;
     padding: 3px;
-
 
 }
 
@@ -210,6 +233,16 @@ a:hover {
 
 .background-cv {
     background-image: url(spazio.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed; 
+    z-index: -1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 
 
